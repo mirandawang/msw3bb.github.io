@@ -1,0 +1,163 @@
+
+
+    /* header {
+       text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }*/
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #3d3d3d;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #454445;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+	color: #2C383B;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	margin: 0px auto;
+	width: 1200px;
+    
+}
+
+.container ul{
+    
+    
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu-wrapper
+	{
+		background: #3d3d3d;
+        width: 0 auto;
+	}
+    
+    #logo
+    {
+        margin: 0 auto;
+        width: 25em;
+    }
+
+    #logo img{
+     width: 20em;
+     padding: 0;
+     margin: 0;
+    }
+
+	#menu
+	{
+		margin: 0 auto;
+	}
+	
+	#menu ul
+	{
+		text-align: center;
+        background: url("images/60-lines.png");
+        
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 2em 1.5em 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+        background:#FFC222;
+	}
+	
+	#menu .current_page_item a
+	{
+		color: #FFF;
+	}
+
+
+/** End Menu **/
+
+
+#content{
+    background: #fff;
+}
+
+    article{
+      max-width:500px;
+      padding: 20px;
+      margin: 0 auto;
+        clear: both;
+    }
+ 
+    @media(max-width: 500px){
+      h1{
+        font-size: 36px;
+      }
+      
+      li{
+        display: block;
+        padding: 5px;
+      }
+    }
