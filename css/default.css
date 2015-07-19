@@ -652,8 +652,8 @@ ul.contact li a.icon-rss:before
 
 #featured-wrapper
 {
-	overflow: hidden;
-	padding: 2em 0 0 0;
+	padding-left: 14vw;
+	width: 90%;
 	background: #FFF;
 	text-align: center;
     margin-top:2em;
@@ -953,7 +953,7 @@ ul.contact li a.icon-rss:before
 }
 
 .extra2{
-    margin-left: 23em;
+    width: 90%;
 }
 .extra2 .ebox1,
 .extra2 .ebox2,
@@ -1027,18 +1027,18 @@ ul.contact li a.icon-rss:before
 	background: #FFF;
 	text-align: justify;
     font-size:1.1em;
-   
+ 	width: 70%;
 }
 
 .frontInfo .join{
     float:left;
-    padding: 1.5em 5em 5em 7em;
+    padding: 1.5em 0em 5em 7em;
     width:35%;
 }
 
 .frontInfo .donate{
     float:left;
-    padding: 1.5em 5em 5em 4em;
+    padding: 1.5em 0em 5em 4em;
     width:35%;
 }
 
@@ -1058,7 +1058,7 @@ ul.contact li a.icon-rss:before
 #headline{
     margin:0 auto;
     padding-top:5em;
-    width:90em;
+    width:90%;
 }
 
 #headline img{
@@ -1069,7 +1069,7 @@ ul.contact li a.icon-rss:before
 .headPics{
     margin-left:auto;
     margin-right:auto;
-    width:30em;
+    width:40%;
 }
 
 
