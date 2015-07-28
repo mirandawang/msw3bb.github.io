@@ -39,10 +39,6 @@ p
 	line-height: 180%;
 }
 
-strong
-{
-}
-
 a
 {
 	color: #2C383B;
@@ -60,50 +56,7 @@ a:hover
     
 }
 
-.container ul{
-    
-    
-}
 
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-	.image
-{
-	display: inline-block;
-}
-
-.image img
-{
-	display: block;
-	width: 100%;
-}
-
-.image-full
-{
-	display: block;
-	width: 100%;
-	margin: 0 0 2em 0;
-}
-
-.image-left
-{
-	float: left;
-	margin: 0 2em 2em 0;
-}
-
-.image-centered
-{
-	display: block;
-	margin: 0 0 2em 0;
-}
-
-.image-centered img
-{
-	margin: 0 auto;
-	width: auto;
-}
 
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -324,14 +277,6 @@ ul.contact li a.icon-rss:before
 	color: #FFF;
 }
 
-.button:hover
-{
-}
-
-.button:active
-{
-}
-
 .button-big
 {
 	padding: 1.6em 4em;
@@ -372,11 +317,7 @@ ul.contact li a.icon-rss:before
 	{
 		overflow: hidden;
 		padding: 5em 0em 0em 0em;
-		background: #515356 url(images/60-lines.png) repeat;	}
-    
-
-	#header
-	{
+		background: #515356 url(images/60-lines.png) repeat;
 	}
 
 #triangle-up {
@@ -652,7 +593,7 @@ ul.contact li a.icon-rss:before
 
 #featured-wrapper
 {
-	padding-left: 14vw;
+	padding-left: 15vw;
 	width: 90%;
 	background: #FFF;
 	text-align: center;
@@ -742,133 +683,6 @@ ul.contact li a.icon-rss:before
 		background-position: center;
 		background-size: cover;
 	}
-
-
-#slider-wrapper
-{
-	padding: 6em 0em;
-	background: #DB3256;
-}
-
-#slider
-{
-	margin: 0em auto 0em auto;
-	width: 1200px;
-	position: relative;
-}
-
-#slider .button
-{
-}
-
-#slider .button:hover
-{
-}
-
-#slider .viewer
-{
-	width: 1000px;
-	height: 375px;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-#slider .viewer .reel
-{
-	display: none;
-	height: 375px;
-}
-
-#slider .viewer .reel .slide
-{
-	position: relative;
-	width: 1000px;
-	height: 375px;
-}
-
-#slider .viewer .reel h2
-{
-	position: absolute;
-	top: 130px;
-	left: 0;
-	width: 1200px;
-	height: 80px;
-	line-height: 80px;
-	background: #111111;
-	text-align: center;
-	opacity: 0.85;
-	font-weight: normal;
-	color: #ffffff;
-	font-size: 2.25em;
-}
-
-#slider .viewer .reel p
-{
-	position: absolute;
-	top: 210px;
-	left: 0;
-	width: 1200px;
-	height: 40px;
-	line-height: 40px;
-	background: #0074C6;
-	text-align: center;
-	opacity: 0.85;
-	font-weight: normal;
-	color: #ffffff;
-	font-size: 1.1em;
-}
-
-#slider .icon
-{
-	font-size: 4em;
-	color: #FFF;
-}
-
-#slider .previous-button
-{
-	position: absolute;
-	top: 150px;
-	left: 0;
-}
-
-#slider .next-button
-{
-	position: absolute;
-	top: 150px;
-	right: 0;
-}
-
-#slider .indicator
-{
-	margin: 30px auto 0 auto;
-}
-
-#slider .indicator ul
-{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-
-#slider .indicator ul li
-{
-	display: inline-block;
-	width: 12px;
-	height: 12px;
-	text-indent: -9999em;
-	background: #c8c8c8;
-	margin: 0 2px 0 2px;
-	border-radius: 8px;
-	border-bottom: solid 1px #ffffff;
-	border-top: solid 1px #909090;
-}
-
-#slider .indicator ul li.active
-{
-	background: #505050;
-	border-top: solid 1px #505050;
-}
 
 /*********************************************************************************/
 /* Footer                                                                        */
@@ -1023,7 +837,7 @@ ul.contact li a.icon-rss:before
 
 .frontInfo{
 	overflow: hidden;
-	padding: 0 10em 0 10em;
+	margin: 0 auto;
 	background: #FFF;
 	text-align: justify;
     font-size:1.1em;
@@ -1031,15 +845,15 @@ ul.contact li a.icon-rss:before
 }
 
 .frontInfo .join{
-    float:left;
-    padding: 1.5em 0em 5em 7em;
-    width:35%;
+	float: left;
+	padding: 1.5vw 0 5vw 8vw;
+	width: 35%;
 }
 
 .frontInfo .donate{
-    float:left;
-    padding: 1.5em 0em 5em 4em;
-    width:35%;
+	float: left;
+	padding: 1.5vw 0 5vw 5vw;
+	width: 35%;
 }
 
 
@@ -1053,27 +867,32 @@ ul.contact li a.icon-rss:before
 	font-size: 2.5em;
 	color: #6F6F6F;
     text-align: center;
+	margin-top:20px;
+	margin-bottom:30px;
 }
 
 #headline{
     margin:0 auto;
-    padding-top:5em;
     width:90%;
 }
 
-#headline img{
-    width:100px;
-    height:100px;
+.headPics {
+	margin: 0 auto;
+	width: 90%;
+	display: inline-block;
+	padding-left: 29vw;
 }
 
-.headPics{
-    margin-left:auto;
-    margin-right:auto;
-    width:40%;
+.headPics div{
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 15%;
+	margin-top: 2em;
+
 }
 
-
-.headPics li{
-    display: inline;
-    padding: 1.5em;
+.headPics div img{
+	width: 100px;
+	height: 100px;
 }
