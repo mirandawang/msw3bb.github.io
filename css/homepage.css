@@ -186,22 +186,22 @@ a:hover
 	background: #3D3D3D;
 }
 
-#menu
+#nav
 {
 	margin: 0 auto;
 }
 
-#menu ul
+#nav ul
 {
 	text-align: center;
 }
 
-#menu li
+#nav li
 {
 	display: inline-block;
 }
 
-#menu li a, #menu li span
+#nav li a, #nav li span
 {
 	display: inline-block;
 	margin-left: 0.50em;
@@ -215,14 +215,18 @@ a:hover
 	color: #FFF;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
+#nav li:hover a, #nav li.active a, #nav li.active span
 {
 	background:#FFC222;
 }
 
-#menu .current_page_item a
+#nav .current_page_item a
 {
 	color: #FFF;
+}
+
+.slicknav_menu{
+	display: none;
 }
 
 /*********************************************************************************/
@@ -414,6 +418,8 @@ a:hover
 	border-top: 30px solid #FFC000;
 }
 
+
+
 /* Media Queries */
 
 /* Larger tablet screens */
@@ -454,6 +460,15 @@ a:hover
         float: none !important;
     }
 
+	#menu {
+		display:none;
+	}
+
+	.slicknav_menu {
+		display:block;
+		width: 70%;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -488,4 +503,14 @@ a:hover
     .frontInfo span{
         float: none !important;
     }
+
+	#menu {
+		display:none;
+	}
+
+	.slicknav_menu {
+		display:block;
+		width: 70%;
+	}
+
 }
